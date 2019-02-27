@@ -1,0 +1,35 @@
+.meownime .postedons {
+  right: -5px;
+  top: 20px;
+  background: #6B6B6B;
+  color: white;
+  padding: 5px;
+  border-right: solid 5px black;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  position: absolute;
+  z-index: 11;
+}
+
+.meownime:hover .postedons {
+  transform: translateX(-5px);
+  -webkit-transform: translateX(-5px);
+  -moz-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  -o-transform: translateX(-5px);
+}
+
+#genre-box .genrespage {overflow: hidden;}
+#genre-box .genrespage h2 {font-size: 14px;border-bottom: 4px solid #DDD;padding: 4px 0;margin-bottom: 5px;}
+#genre-box .genrespage ul {margin: 0;padding: 0;list-style: none;}
+#genre-box .genrespage ul li {float: left;margin: 3px;padding: 0 !important;}
+#genre-box .genrespage ul li a {display: block;border-radius: 3px;padding: 5px;border: 1px solid #FFF;text-align: center;box-shadow: 0 0 1px #000;width: 88px;font-size: 11px;color: #00000;border-radius: 4px;}
+#genre-box .genrespage ul li a:hover {background: #1e73be;border: 1px solid #FFF;color: #FFF;text-decoration: none;}
+
+.news-row{
+margin-top: 20px;
+border: 1px solid #dadada;
+}
