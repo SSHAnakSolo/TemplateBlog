@@ -1,3 +1,15 @@
+/*Download Box*/
+.dl-box{text-align: center;font-size: 15px}
+.dl-box > .dl-title{background: #39484D;color:#FFF;padding: 0px;font-weight: bold}
+.dl-box > .dl-title h3:first-child{color: #DADADA}
+.dl-box > .dl-title h3:last-child{color: #DA4453}
+.dl-box .copynime-itm .dl-anime{padding: 0px;border-top: 1px solid #DDDDDD}
+.dl-box .copynime-itm {margin: 0 !important;padding: 8px !important;border-top: 1px solid #DDDDDD;background: #EEEEEE}
+.dl-box .copynime-itm a{color:#DA4453}
+.dl-box .copynime-itm a:hover{color:#39484D}
+.dl-box .copynime-itm a:after{content:"|";color:#909090}
+.dl-box .copynime-itm a:after:hover{color:#909090}
+.dl-box .copynime-itm .dl-title:hover, .dl-box .dl-anime:hover{background: #F5F5F5}
 
 .jawaban {  background-color:darkslategray;  color:white;  padding:.15384615384615385em;  margin:1em 0;}
 .jawaban-toggle,
