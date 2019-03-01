@@ -1,0 +1,53 @@
+
+.jawaban {  background-color:darkslategray;  color:white;  padding:.15384615384615385em;  margin:1em 0;}
+.jawaban-toggle,
+.jawaban-toggle:focus,
+.jawaban-toggle:hover,
+.jawaban-toggle:active {
+  display:block;
+  margin:0;
+  padding:0 1.2em 0 .6em;
+  height:2em;
+  font:normal normal 100%/2em Helmet,FreeSans,Sans-Serif;
+  color:inherit;
+  text-decoration:none;
+  outline:none;
+  position:relative;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  cursor:pointer;
+}
+.jawaban-toggle:before {
+  content:"";
+  display:block;
+  float:right;
+  width:0;
+  height:0;
+  border-width:.3076923076923077em .3076923076923077em 0;
+  border-style:solid;
+  border-color:white transparent transparent;
+  margin:.9230769230769231em -.6em 0 0;
+}
+.isi-jawaban {  padding:1em;  background-color:white;  color:#333;}
+.buka-jawaban .jawaban-toggle {padding-bottom:inherit}
+.buka-jawaban .jawaban-toggle:before {
+  border-width:0 .3076923076923077em .3076923076923077em;
+  border-color:transparent transparent white;
+  margin-top:.8461538461538461em;
+}
+.buka-jawaban .isi-jawaban + .jawaban-toggle {  padding-top:inherit;  padding-bottom:0;}
+.disable-jawaban .jawaban-toggle {  cursor:default;  cursor:not-allowed;}
+.disable-jawaban .jawaban-toggle:before,
+.jawaban-js .tutup-jawaban .isi-jawaban {display:none}
+.jawaban-primary {background-color:steelblue}
+.jawaban-success {background-color:mediumseagreen}
+.jawaban-info {background-color:skyblue}
+.jawaban-warning {background-color:sandybrown}
+.jawaban-danger {background-color:salmon}
+
+/* ignore this! */
+#my-custom-id .jawaban-toggle {
+  font-weight:bold;
+  font-style:italic;
+}
